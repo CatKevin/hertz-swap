@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://michaelwu1995.github.io/leek-finance-farm/'
+    href: 'https://michaelwu1995.github.io/leek-finance-farm/#/'
   },
   {
     label: 'Trade',
