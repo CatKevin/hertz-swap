@@ -44,7 +44,7 @@
     "inter-ui": "^3.13.1",
     "jazzicon": "^1.5.0",
     "leek-uikit": "1.0.0",
-    "leekswap-sdk": "1.0.2",
+    "leekswap-sdk": "1.0.3",
     "lodash.flatmap": "^4.5.0",
     "multicodec": "^2.0.0",
     "multihashes": "^3.0.1",

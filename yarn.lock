@@ -10168,10 +10168,10 @@ leek-uikit@1.0.0:
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
-leekswap-sdk@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/leekswap-sdk/-/leekswap-sdk-1.0.2.tgz#bf9d8db32e9c25e5f8963a1b1c291483324b43e5"
-  integrity sha512-h2fIi1gMwZ+8sY2t1ffxfjIFCrJ9a6iRuU1sbcGPUp6ulPVmAroptztIxzR0hvKpfPjt6Ym5y7VgJIcIcI6Y6w==
+leekswap-sdk@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/leekswap-sdk/-/leekswap-sdk-1.0.3.tgz#67bac4f9005801b7f530a04d2f395386169b2e30"
+  integrity sha512-P4wFfcB6wrQxiNcvc0//R+PNWeN2qHoQw/znpBKIKVRXzIvVmexw77oexgJzvWxjt9Q3EYIV/5YnIvDKyEANsA==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
