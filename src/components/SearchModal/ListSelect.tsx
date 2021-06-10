@@ -13,7 +13,7 @@ import { AppDispatch, AppState } from '../../state'
 import { acceptListUpdate, removeList, selectList } from '../../state/lists/actions'
 import { useSelectedListUrl } from '../../state/lists/hooks'
 import { CloseIcon, ExternalLink, LinkStyledButton, TYPE } from '../Shared'
-import listVersionLabel from '../../utils/listVersionLabel'
+// import listVersionLabel from '../../utils/listVersionLabel'
 import { parseENSAddress } from '../../utils/parseENSAddress'
 import uriToHttp from '../../utils/uriToHttp'
 import Column from '../Column'
@@ -153,22 +153,18 @@ const ListRow = memo(function ListRow({ listUrl, onBack }: { listUrl: string; on
         </Row>
       </Column>
       <StyledMenu ref={node as any}>
-        <div style={{ display: 'inline-block' }} ref={setReferenceElement}>
+        <div style={{ display: 'inline-block', marginRight:"10px"}} ref={setReferenceElement}>
           <Button
-            style={{
-              width: '32px',
-              marginRight: '8px',
-            }}
             onClick={toggle}
             variant="secondary"
           >
-            <DropDown />
+            <DropDown/>
           </Button>
         </div>
 
         {open && (
           <PopoverContainer show ref={setPopperElement as any} style={styles.popper} {...attributes.popper}>
-            <div>{list && listVersionLabel(list.version)}</div>
+            {/* <div>{list && listVersionLabel(list.version)}</div> */}
             <SeparatorDark />
             <ExternalLink href={`https://tokenlists.org/token-list?url=${listUrl}`}>View list</ExternalLink>
             <UnpaddedLinkStyledButton onClick={handleRemoveList} disabled={Object.keys(listsByUrl).length === 1}>

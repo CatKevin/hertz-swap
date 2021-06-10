@@ -1,5 +1,5 @@
 {
-  "name": "pancakeswap",
+  "name": "Leekswap Token List",
   "timestamp": "2020-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
@@ -7,9 +7,9 @@
     "patch": 1
   },
   "tags": {},
-  "logoURI": "/images/coins/matic.png",
+  "logoURI": "https://michaelwu1995.github.io/leek-finance-swap/images/leek/logo.png",
   "keywords": [
-    "pancake",
+    "leekswap",
     "default"
   ],
   "tokens": [

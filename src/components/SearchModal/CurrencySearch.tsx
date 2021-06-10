@@ -24,7 +24,7 @@ import SortButton from './SortButton'
 import { useTokenComparator } from './sorting'
 import { PaddedColumn, SearchInput, Separator } from './styleds'
 import TranslatedText from '../TranslatedText'
-import { TranslateString } from '../../utils/translateTextHelpers'
+// import { TranslateString } from '../../utils/translateTextHelpers'
 
 const { main: Main } = TYPE
 
@@ -147,10 +147,8 @@ export function CurrencySearch({
           <Text>
             <TranslatedText translationId={82}>Select a token</TranslatedText>
             <QuestionHelper
-              text={TranslateString(
-                130,
+              text=
                 'Find a token by searching for its name or symbol or by pasting its address below.'
-              )}
             />
           </Text>
           <CloseIcon onClick={onDismiss} />
@@ -193,34 +191,30 @@ export function CurrencySearch({
         </AutoSizer>
       </div>
 
-      {null && (
-        <>
-          <Separator />
-          <Card>
-            <RowBetween>
-              {selectedListInfo.current ? (
-                <Row>
-                  {selectedListInfo.current.logoURI ? (
-                    <ListLogo
-                      style={{ marginRight: 12 }}
-                      logoURI={selectedListInfo.current.logoURI}
-                      alt={`${selectedListInfo.current.name} list logo`}
-                    />
-                  ) : null}
-                  <Main id="currency-search-selected-list-name">{selectedListInfo.current.name}</Main>
-                </Row>
+      <Separator />
+      <Card>
+        <RowBetween>
+          {selectedListInfo.current ? (
+            <Row>
+              {selectedListInfo.current.logoURI ? (
+                <ListLogo
+                  style={{ marginRight: 12 }}
+                  logoURI={selectedListInfo.current.logoURI}
+                  alt={`${selectedListInfo.current.name} list logo`}
+                />
               ) : null}
-              <LinkStyledButton
-                style={{ fontWeight: 500, color: theme.colors.textSubtle, fontSize: 16 }}
-                onClick={onChangeList}
-                id="currency-search-change-list-button"
-              >
-                {selectedListInfo.current ? 'Change' : 'Select a list'}
-              </LinkStyledButton>
-            </RowBetween>
-          </Card>
-        </>
-      )}
+              <Main id="currency-search-selected-list-name">{selectedListInfo.current.name}</Main>
+            </Row>
+          ) : null}
+          <LinkStyledButton
+            style={{ fontWeight: 500, color: theme.colors.textSubtle, fontSize: 16 }}
+            onClick={onChangeList}
+            id="currency-search-change-list-button"
+          >
+            {selectedListInfo.current ? 'Change' : 'Select a list'}
+          </LinkStyledButton>
+        </RowBetween>
+      </Card>
     </Column>
   )
 }
