@@ -1095,9 +1095,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.8.7":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
-  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.5.tgz#665450911c6031af38f81db530f387ec04cd9a98"
+  integrity sha512-121rumjddw9c3NCQ55KGkyE1h/nzWhU/owjhw0l4mQrkzz4x9SGS1X8gFLraHwX7td3Yo4QTL+qj0NcIzN87BA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -10157,10 +10157,10 @@ lazy-ass@1.6.0, lazy-ass@^1.6.0:
   resolved "https://registry.yarnpkg.com/lazy-ass/-/lazy-ass-1.6.0.tgz#7999655e8646c17f089fdd187d150d3324d54513"
   integrity sha1-eZllXoZGwX8In90YfRUNMyTVRRM=
 
-leek-uikit@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/leek-uikit/-/leek-uikit-1.0.0.tgz#8f3fbfa682a09444a356d512ebb1f82b2f04de24"
-  integrity sha512-8YlmrGy7LQM9w9ptdONZMyEJB7H1xj4zBzx6U8FVv4ou774LOG2p5m2wdXYZWPNle9eR+g4d54fwZoNLYt08/Q==
+leek-uikit@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/leek-uikit/-/leek-uikit-1.0.1.tgz#88b551d582ee9e56b0613003b7e1ac6810085ed9"
+  integrity sha512-53e42d/WIzOjx3NnhQwW7MJJa0Z8Tma0cd/dxczzGRsQAxi/afqoZwMxPZb93nolQ9pYwBfjQZPWcSX7CYukOw==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -10168,10 +10168,10 @@ leek-uikit@1.0.0:
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
-leekswap-sdk@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/leekswap-sdk/-/leekswap-sdk-1.0.3.tgz#67bac4f9005801b7f530a04d2f395386169b2e30"
-  integrity sha512-P4wFfcB6wrQxiNcvc0//R+PNWeN2qHoQw/znpBKIKVRXzIvVmexw77oexgJzvWxjt9Q3EYIV/5YnIvDKyEANsA==
+leekswap-sdk@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/leekswap-sdk/-/leekswap-sdk-1.0.4.tgz#9788cff17e1e6788871fb91e814dd75135118fa3"
+  integrity sha512-Qa+PCS9URN+OFzuQnFmK38R6s6VGH1KdkxQMLf2a7GR+8C8tDpPhfxgG3BDjl2p+f/EgOXl5lWXMdjWVLtEBPQ==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

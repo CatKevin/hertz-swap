@@ -30,7 +30,8 @@ export const MATIC: { [key: string]: Token } = {
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]],
-  [ChainId.MATIC]: [WETH[ChainId.MATIC]]
+  [ChainId.MATIC]: [WETH[ChainId.MATIC]],
+  [ChainId.MATIC_TESTNET]: [WETH[ChainId.MATIC_TESTNET]],
 }
 
 // used to construct intermediary pairs for trading

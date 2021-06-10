@@ -7,6 +7,7 @@ const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '0xC07d4604400139108BbdB3076636365A385879eF', // TODO
   [ChainId.BSCTESTNET]: '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F',
   [ChainId.MATIC]: '',
+  [ChainId.MATIC_TESTNET]: '',
 }
 
 const V1_FACTORY_INTERFACE = new Interface(V1_FACTORY_ABI)
