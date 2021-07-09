@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://michaelwu1995.github.io/leek-finance-farm/#/'
+    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/'
   },
   {
     label: 'Trade',
@@ -24,7 +24,13 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://michaelwu1995.github.io/leek-finance-farm/#/farms'
+    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/farms'
+  },
+
+  {
+    label: 'IDO',
+    icon: 'IfoIcon',
+    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/ido',
   },
   // {
   //   label: 'Nests',
@@ -63,15 +69,23 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/meowmeowfinance",
+        label: 'Github',
+        href: 'https://github.com/cryptoleek-team',
       },
       {
-        label: "Docs",
-        href: "#",
+        label: 'Docs',
+        href: 'https://docs.leekdao.xyz/',
       },
-    ]
-  }
+      {
+        label: 'CryptoLeek Website',
+        href: 'https://www.bitcoinleek.com/',
+      },
+      {
+        label: 'LeekDAO Website',
+        href: '#',
+      },
+    ],
+  },
   //     {
   //       label: "Blog",
   //       href: "https://goosefinance.medium.com/",

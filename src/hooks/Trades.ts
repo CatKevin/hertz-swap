@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'leekswap-sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'leekswap-test-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

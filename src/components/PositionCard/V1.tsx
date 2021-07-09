@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
-import { Token, TokenAmount, WETH } from 'leekswap-sdk'
+import { Token, TokenAmount, WETH } from 'leekswap-test-sdk'
 import { Button, Text } from 'leek-uikit'
 import { AutoColumn } from '../Column'
 import { RowBetween, RowFixed } from '../Row'

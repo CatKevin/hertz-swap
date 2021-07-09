@@ -1,4 +1,4 @@
-import { JSBI } from 'leekswap-sdk'
+import { JSBI } from 'leekswap-test-sdk'
 import { useMemo } from 'react'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'
 import { useActiveWeb3React } from './index'

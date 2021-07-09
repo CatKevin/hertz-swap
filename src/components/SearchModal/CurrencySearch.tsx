@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'leekswap-sdk'
+import { Currency, ETHER, Token } from 'leekswap-test-sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Text, CloseIcon } from 'leek-uikit'
 import { useSelector } from 'react-redux'
@@ -95,11 +95,10 @@ export function CurrencySearch({
     (currency: Currency) => {
       onCurrencySelect(currency)
       onDismiss()
-      if (audioPlay === undefined) {
+
+      if (audioPlay) {
         const audio = document.getElementById('bgMusic') as HTMLAudioElement
-        if (audio) {
-          audio.play()
-        }
+        audio.play()
       }
     },
     [onDismiss, onCurrencySelect, audioPlay]
@@ -148,7 +147,7 @@ export function CurrencySearch({
             <TranslatedText translationId={82}>Select a token</TranslatedText>
             <QuestionHelper
               text=
-                'Find a token by searching for its name or symbol or by pasting its address below.'
+              'Find a token by searching for its name or symbol or by pasting its address below.'
             />
           </Text>
           <CloseIcon onClick={onDismiss} />

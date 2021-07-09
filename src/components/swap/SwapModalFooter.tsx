@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'leekswap-sdk'
+import { Trade, TradeType } from 'leekswap-test-sdk'
 import React, { useMemo, useState } from 'react'
 import { Text, Button } from 'leek-uikit'
 import { Repeat } from 'react-feather'

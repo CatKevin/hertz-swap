@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from 'leekswap-sdk'
+import { Currency, Pair } from 'leekswap-test-sdk'
 import { Button, ChevronDownIcon, Text } from 'leek-uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'

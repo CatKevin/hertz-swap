@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from 'leekswap-sdk'
+import { ChainId, Pair, Token } from 'leekswap-test-sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
@@ -192,7 +192,7 @@ export function usePairAdder(): (pair: Pair) => void {
  * @param tokenB the other token
  */
 export function toV2LiquidityToken([tokenA, tokenB]: [Token, Token]): Token {
-  return new Token(tokenA.chainId, Pair.getAddress(tokenA, tokenB), 18, 'Cake-LP', 'Pancake LPs')
+  return new Token(tokenA.chainId, Pair.getAddress(tokenA, tokenB), 18, 'Leek-LP', 'LeekDAO LP Token')
 }
 
 /**
@@ -211,6 +211,7 @@ export function useTrackedTokenPairs(): [Token, Token][] {
       chainId
         ? flatMap(Object.keys(tokens), (tokenAddress) => {
           const token = tokens[tokenAddress]
+
           // for each token on the current chain,
           return (
             // loop though all bases on the current chain

@@ -1,10 +1,10 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'leekswap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'leekswap-test-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 import { injected, bsc } from '../connectors'
 // TODO
-export const ROUTER_ADDRESS = '0xE1f835fBbFEa0D898bbA7AB608eD9A92FF306E4d'
+export const ROUTER_ADDRESS = '0x3eFe4806E5725EB3B48c57D13F845d6e701ACf75'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -19,11 +19,11 @@ export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869e
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
 
 export const MATIC: { [key: string]: Token } = {
-  USDC: new Token(ChainId.MATIC,'0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',6,'USDC','USD Coin'),
-  WBTC: new Token(ChainId.MATIC,'0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',8,'WBTC','Wrapped Bitcoin'),
-  DAI: new Token(ChainId.MATIC,'0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',18,'DAI','Dai Stablecoin'),
-  WETH: new Token(ChainId.MATIC,'0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',18,'WETH','Wrapped Ether'),
-  USDT: new Token(ChainId.MATIC,'0xc2132D05D31c914a87C6611C10748AEb04B58e8F',6,'USDT','Tether USD'),
+  USDC: new Token(ChainId.MATIC, '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', 6, 'USDC', 'USD Coin'),
+  WBTC: new Token(ChainId.MATIC, '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6', 8, 'WBTC', 'Wrapped Bitcoin'),
+  DAI: new Token(ChainId.MATIC, '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063', 18, 'DAI', 'Dai Stablecoin'),
+  WETH: new Token(ChainId.MATIC, '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', 18, 'WETH', 'Wrapped Ether'),
+  USDT: new Token(ChainId.MATIC, '0xc2132D05D31c914a87C6611C10748AEb04B58e8F', 6, 'USDT', 'Tether USD'),
 }
 
 
@@ -81,6 +81,13 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     ],
     [MATIC.USDC, MATIC.USDT],
     [MATIC.DAI, MATIC.USDT]
+  ],
+
+  [ChainId.MATIC_TESTNET]: [
+    [
+      new Token(ChainId.MATIC_TESTNET, '0xc657EFDb41eaBA15Cea84d34a2A60b18686FA929', 18, 'LEEK', 'cryptoleek.dao'),
+      new Token(ChainId.MATIC_TESTNET, '0x3a93603cEe693674826DF627E1f3fe37b9F8B0c4', 18, 'USDT', 'cryptoleek.dao')
+    ]
   ]
 }
 

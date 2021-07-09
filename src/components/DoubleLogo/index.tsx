@@ -1,4 +1,4 @@
-import { Currency } from 'leekswap-sdk'
+import { Currency } from 'leekswap-test-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

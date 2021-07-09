@@ -14,13 +14,12 @@
   ],
   "tokens": [
     {
-      "name": "Leek Finance",
+      "name": "cryptoleek.dao",
       "symbol": "LEEK",
       "address": "0xB82f7f11188ACbc90D6ABd621CD2C338c3C75eA2",
       "chainId": 137,
       "decimals": 18
     },
-
     {
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
@@ -28,7 +27,6 @@
       "chainId": 137,
       "decimals": 18
     },
-
     {
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -36,7 +34,6 @@
       "chainId": 137,
       "decimals": 18
     },
-
     {
       "name": "Tether USD",
       "symbol": "USDT",
@@ -57,6 +54,20 @@
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
       "chainId": 137,
       "decimals": 6
+    },
+    {
+      "name": "cryptoleek.dao",
+      "symbol": "LEEK",
+      "address": "0xc657EFDb41eaBA15Cea84d34a2A60b18686FA929",
+      "chainId": 80001,
+      "decimals": 18
+    },
+    {
+      "name": "cryptoleek.dao",
+      "symbol": "USDT",
+      "address": "0x3a93603cEe693674826DF627E1f3fe37b9F8B0c4",
+      "chainId": 80001,
+      "decimals": 18
     }
   ]
 }

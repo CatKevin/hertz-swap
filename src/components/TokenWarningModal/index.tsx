@@ -1,4 +1,4 @@
-import { Token } from 'leekswap-sdk'
+import { Token } from 'leekswap-test-sdk'
 import { transparentize } from 'polished'
 import { Button, Text } from 'leek-uikit'
 import React, { useCallback, useMemo, useState } from 'react'
@@ -76,7 +76,7 @@ function TokenWarningCard({ token }: TokenWarningCardProps) {
           </Main>
           {chainId && (
             <ExternalLink style={{ fontWeight: 400 }} href={getEtherscanLink(chainId, token.address, 'token')}>
-              <Blue title={token.address}>{shortenAddress(token.address)} (View on Matic Explorer)</Blue>
+              <Blue title={token.address}>{shortenAddress(token.address)} (View on PolygonScan)</Blue>
             </ExternalLink>
           )}
         </AutoColumn>

@@ -1,4 +1,4 @@
-import { ChainId } from 'leekswap-sdk'
+import { ChainId } from 'leekswap-test-sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Button, LinkExternal } from 'leek-uikit'
@@ -25,7 +25,7 @@ const TransactionSubmittedContent = ({ onDismiss, chainId, hash }: TransactionSu
         </ConfirmedIcon>
         <AutoColumn gap="8px" justify="center">
           {chainId && hash && (
-            <LinkExternal href={getEtherscanLink(chainId, hash, 'transaction')}>View on Matic Explorer</LinkExternal>
+            <LinkExternal href={getEtherscanLink(chainId, hash, 'transaction')}>View on PolygonScan</LinkExternal>
           )}
           <Button onClick={onDismiss} mt="20px">
             Close

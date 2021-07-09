@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'leekswap-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'leekswap-test-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from 'leek-uikit'
 import CardNav from 'components/CardNav'

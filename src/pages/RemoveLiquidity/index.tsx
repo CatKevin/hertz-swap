@@ -3,7 +3,7 @@ import styled, { ThemeContext } from 'styled-components'
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, Percent, WETH } from 'leekswap-sdk'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from 'leekswap-test-sdk'
 import { Button, Flex, Text } from 'leek-uikit'
 import { ArrowDown, Plus } from 'react-feather'
 import { RouteComponentProps } from 'react-router'
@@ -123,7 +123,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' },
     ]
     const domain = {
-      name: 'LeekSwap LP Token',
+      name: 'LeekDAO LP Token',
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,
