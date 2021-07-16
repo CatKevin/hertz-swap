@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import { TransactionResponse } from '@ethersproject/abstract-provider'
-import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from 'leekswap-test-sdk'
+import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from 'leekswap-sdk'
 import { Button } from 'leek-uikit'
 import { Redirect, RouteComponentProps } from 'react-router'
 import { AddressZero } from '@ethersproject/constants'

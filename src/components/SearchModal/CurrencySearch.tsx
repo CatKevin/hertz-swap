@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'leekswap-test-sdk'
+import { Currency, ETHER, Token } from 'leekswap-sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Text, CloseIcon } from 'leek-uikit'
 import { useSelector } from 'react-redux'

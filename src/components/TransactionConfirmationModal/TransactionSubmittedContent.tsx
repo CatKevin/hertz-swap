@@ -1,4 +1,4 @@
-import { ChainId } from 'leekswap-test-sdk'
+import { ChainId } from 'leekswap-sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Button, LinkExternal } from 'leek-uikit'

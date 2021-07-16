@@ -1,4 +1,4 @@
-import { ChainId } from 'leekswap-test-sdk'
+import { ChainId } from 'leekswap-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {

@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Trade, TradeType } from 'leekswap-test-sdk'
+import { Trade, TradeType } from 'leekswap-sdk'
 import { Button, Text } from 'leek-uikit'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 

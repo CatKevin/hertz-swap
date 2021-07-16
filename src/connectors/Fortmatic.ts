@@ -1,4 +1,4 @@
-import { ChainId } from 'leekswap-test-sdk'
+import { ChainId } from 'leekswap-sdk'
 import { FortmaticConnector as FortmaticConnectorCore } from '@web3-react/fortmatic-connector'
 
 export const OVERLAY_READY = 'OVERLAY_READY'

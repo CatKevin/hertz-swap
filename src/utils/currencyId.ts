@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'leekswap-test-sdk'
+import { Currency, ETHER, Token } from 'leekswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

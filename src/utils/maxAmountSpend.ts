@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'leekswap-test-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'leekswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Percent, Price } from 'leekswap-test-sdk'
+import { Currency, Percent, Price } from 'leekswap-sdk'
 import { Text } from 'leek-uikit'
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'

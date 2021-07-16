@@ -1,10 +1,10 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'leekswap-test-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'leekswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 import { injected, bsc } from '../connectors'
 // TODO
-export const ROUTER_ADDRESS = '0x3eFe4806E5725EB3B48c57D13F845d6e701ACf75'
+export const ROUTER_ADDRESS = '0x48C7976491Dab63af4b3ADd4EA7ccC0984E70cab'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -76,7 +76,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   ],
   [ChainId.MATIC]: [
     [
-      new Token(ChainId.MATIC, '0xB82f7f11188ACbc90D6ABd621CD2C338c3C75eA2', 18, 'LEEK', 'Leek Finance'),
+      new Token(ChainId.MATIC, '0x67A32987a8EAA0644702C362B53B8EeBd126C20b', 18, 'LEEK', 'cryptoleek.dao'),
       new Token(ChainId.MATIC, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped Matic')
     ],
     [MATIC.USDC, MATIC.USDT],

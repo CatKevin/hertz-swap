@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from 'leekswap-test-sdk'
+import { ChainId } from 'leekswap-sdk'
 
 export interface SerializableTransactionReceipt {
   to: string

@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
-import { Pair } from 'leekswap-test-sdk'
+import { Pair } from 'leekswap-sdk'
 import { Button, CardBody, Text } from 'leek-uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'leekswap-test-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'leekswap-sdk'
 import React from 'react'
 import { Button } from 'leek-uikit'
 import { RowBetween, RowFixed } from '../../components/Row'

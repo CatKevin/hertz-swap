@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'leekswap-test-sdk'
+import { currencyEquals, Trade } from 'leekswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

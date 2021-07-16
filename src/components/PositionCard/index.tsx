@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from 'leekswap-test-sdk'
+import { JSBI, Pair, Percent } from 'leekswap-sdk'
 import { Button, Card as UIKitCard, CardBody, Text } from 'leek-uikit'
 import { darken } from 'polished'
 import { ChevronDown, ChevronUp } from 'react-feather'

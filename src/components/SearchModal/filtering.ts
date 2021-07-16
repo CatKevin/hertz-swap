@@ -1,4 +1,4 @@
-import { Token } from 'leekswap-test-sdk'
+import { Token } from 'leekswap-sdk'
 import { isAddress } from '../../utils'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

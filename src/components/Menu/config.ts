@@ -32,11 +32,11 @@ const config: MenuEntry[] = [
     icon: 'IfoIcon',
     href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/ido',
   },
-  // {
-  //   label: 'Nests',
-  //   icon: 'PoolIcon',
-  //   href: 'https://www.goosedefi.com/nests'
-  // },
+  {
+    label: 'Vote',
+    icon: 'GroupsIcon',
+    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/vote'
+  },
   // // {
   // //   label: 'Lottery',
   // //   icon: 'TicketIcon',

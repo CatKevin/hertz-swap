@@ -1,4 +1,4 @@
-import { Percent } from 'leekswap-test-sdk'
+import { Percent } from 'leekswap-sdk'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'
