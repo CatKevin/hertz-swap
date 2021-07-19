@@ -36,7 +36,6 @@ const useGetPriceData = () => {
           const cake = new BigNumber(cakeAmount);
           const busd = new BigNumber(busdAmount);
           const cakePrice = parseInt(busd.toFixed()) / parseInt(cake.toFixed());
-
           setData(cakePrice)
         }
       } catch (error) {
