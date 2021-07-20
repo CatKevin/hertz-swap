@@ -1,10 +1,13 @@
 import { MenuEntry } from 'leek-uikit'
+import UrlConfig from './UrlConfig'
+
+const chainId:string = process.env.REACT_APP_CHAIN_ID || '80001'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/'
+    href: UrlConfig[chainId].home
   },
   {
     label: 'Trade',
@@ -24,18 +27,18 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/farms'
+    href: UrlConfig[chainId].farms
   },
 
   {
     label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/ido',
+    href: UrlConfig[chainId].ido,
   },
   {
     label: 'Vote',
     icon: 'GroupsIcon',
-    href: 'https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/vote'
+    href: UrlConfig[chainId].vote
   },
   // // {
   // //   label: 'Lottery',
@@ -82,7 +85,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'LeekDAO Website',
-        href: '#',
+        href: 'https://leekdao.xyz/',
       },
     ],
   },
