@@ -35,3 +35,6 @@ cypress/fixtures/example.json
 
 .eslintcache
 /.github/
+
+
+buildscript.sh
