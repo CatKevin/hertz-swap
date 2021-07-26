@@ -40,6 +40,16 @@ const config: MenuEntry[] = [
     icon: 'GroupsIcon',
     href: UrlConfig[chainId].vote
   },
+  {
+    label: 'Lucky Draw',
+    icon: 'TicketIcon',
+    href: UrlConfig[chainId].lottery,
+  },
+  {
+    label: 'AirDrop',
+    icon: 'VaultsIcon',
+    href: UrlConfig[chainId].airdrop,
+  },
   // // {
   // //   label: 'Lottery',
   // //   icon: 'TicketIcon',
