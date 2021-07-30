@@ -1,5 +1,5 @@
 {
-  "name": "Leekswap Token List",
+  "name": "HertzSwap Token List",
   "timestamp": "2020-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
@@ -7,7 +7,7 @@
     "patch": 1
   },
   "tags": {},
-  "logoURI": "https://michaelwu1995.github.io/leek-finance-swap/images/leek/logo.png",
+  "logoURI": "./images/leek/logo.png",
   "keywords": [
     "leekswap",
     "default"
@@ -36,7 +36,7 @@
     },
     {
       "name": "cryptoleek.dao",
-      "symbol": "LEEK",
+      "symbol": "HERTZ",
       "address": "0xc657EFDb41eaBA15Cea84d34a2A60b18686FA929",
       "chainId": 80001,
       "decimals": 18
@@ -47,6 +47,13 @@
       "address": "0x3a93603cEe693674826DF627E1f3fe37b9F8B0c4",
       "chainId": 80001,
       "decimals": 18
+    },
+    {
+      "name": "cryptoleek.dao",
+      "symbol": "USDC",
+      "address": "0x5e2C319e51c7481CBE281A62be983c727dE577De",
+      "chainId": 80001,
+      "decimals": 6
     }
   ]
 }

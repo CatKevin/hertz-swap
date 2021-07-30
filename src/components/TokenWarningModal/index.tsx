@@ -1,6 +1,6 @@
-import { Token } from 'leekswap-sdk'
+import { Token } from 'leekswap-test-sdk'
 import { transparentize } from 'polished'
-import { Button, Text } from 'leek-uikit'
+import { Button, Text } from 'hertz-uikit'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { AlertTriangle } from 'react-feather'

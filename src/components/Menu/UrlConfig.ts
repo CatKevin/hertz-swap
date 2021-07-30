@@ -6,15 +6,13 @@ const UrlConfig = {
     "vote": "https://app.leekdao.xyz/#/vote",
     "lottery": "https://app.leekdao.xyz/#/lottery",
     "airdrop": "https://app.leekdao.xyz/#/airdrop",
-
   },
   "80001": {
-    "home": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/",
-    "farms": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/farms",
-    "ido": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/ido",
-    "vote": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/vote",
-    "lottery": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/lottery",
-    "airdrop": "https://cryptoleek-team.github.io/leekdao-mumbai-testnet/#/airdrop",
+    "home": "https://hertzfinance.github.io/hertz-dapp/#/",
+    "farms": "https://hertzfinance.github.io/hertz-dapp/#/farms",
+    "ido": "https://hertzfinance.github.io/hertz-dapp/#/ido",
+    "vote": "https://hertzfinance.github.io/hertz-dapp/#/vote",
+    "lottery": "https://hertzfinance.github.io/hertz-dapp/#/lottery",
   }
 }
 

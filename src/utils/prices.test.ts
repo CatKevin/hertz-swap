@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'leekswap-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'leekswap-test-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

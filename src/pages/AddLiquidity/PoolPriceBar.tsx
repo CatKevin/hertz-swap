@@ -1,6 +1,6 @@
 import React from 'react'
-import { Currency, Percent, Price } from 'leekswap-sdk'
-import { Text } from 'leek-uikit'
+import { Currency, Percent, Price } from 'leekswap-test-sdk'
+import { Text } from 'hertz-uikit'
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'
 import { ONE_BIPS } from '../../constants'

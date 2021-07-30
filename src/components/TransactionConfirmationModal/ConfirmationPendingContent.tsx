@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from 'leek-uikit'
+import { Text } from 'hertz-uikit'
 import { Spinner } from '../Shared'
 import { AutoColumn } from '../Column'
 import Circle from '../../assets/images/blue-loader.svg'

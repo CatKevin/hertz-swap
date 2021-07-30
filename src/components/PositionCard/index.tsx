@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from 'leekswap-sdk'
-import { Button, Card as UIKitCard, CardBody, Text } from 'leek-uikit'
+import { JSBI, Pair, Percent } from 'leekswap-test-sdk'
+import { Button, Card as UIKitCard, CardBody, Text } from 'hertz-uikit'
 import { darken } from 'polished'
 import { ChevronDown, ChevronUp } from 'react-feather'
 import { Link } from 'react-router-dom'

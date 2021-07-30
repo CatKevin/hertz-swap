@@ -1,6 +1,6 @@
 import React from 'react'
-import { Price } from 'leekswap-sdk'
-import { SyncAltIcon, Text } from 'leek-uikit'
+import { Price } from 'leekswap-test-sdk'
+import { SyncAltIcon, Text } from 'hertz-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

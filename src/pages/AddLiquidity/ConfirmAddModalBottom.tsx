@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'leekswap-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'leekswap-test-sdk'
 import React from 'react'
-import { Button } from 'leek-uikit'
+import { Button } from 'hertz-uikit'
 import { RowBetween, RowFixed } from '../../components/Row'
 import CurrencyLogo from '../../components/CurrencyLogo'
 import { Field } from '../../state/mint/actions'

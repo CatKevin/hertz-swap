@@ -1,6 +1,6 @@
 import React from 'react'
-import { Trade, TradeType } from 'leekswap-sdk'
-import { Card, CardBody, Text } from 'leek-uikit'
+import { Trade, TradeType } from 'leekswap-test-sdk'
+import { Card, CardBody, Text } from 'hertz-uikit'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from '../../utils/prices'

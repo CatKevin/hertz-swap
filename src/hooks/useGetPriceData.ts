@@ -35,8 +35,8 @@ const useGetPriceData = () => {
           const [cakeAmount, busdAmount] = result[1].map(r => ERC20_INTERFACE.decodeFunctionResult("balanceOf", r));
           const cake = new BigNumber(cakeAmount);
           const busd = new BigNumber(busdAmount);
-          const cakePrice = parseInt(busd.toFixed()) / parseInt(cake.toFixed());
-          setData(cakePrice)
+          const cakePrice = busd.multipliedBy(10 ** 12).div(cake)
+          setData(cakePrice.toNumber())
         }
       } catch (error) {
         console.error('Unable to fetch price data:', error)

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text } from 'leek-uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from 'leekswap-sdk'
+import { Text } from 'hertz-uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from 'leekswap-test-sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'

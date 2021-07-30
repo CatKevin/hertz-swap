@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal } from 'leek-uikit'
+import { Modal } from 'hertz-uikit'
 import SlippageToleranceSetting from './SlippageToleranceSetting'
 import TransactionDeadlineSetting from './TransactionDeadlineSetting'
 

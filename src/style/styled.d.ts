@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import { PancakeTheme } from 'leek-uikit/dist/theme'
+import { PancakeTheme } from 'hertz-uikit/dist/theme'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */

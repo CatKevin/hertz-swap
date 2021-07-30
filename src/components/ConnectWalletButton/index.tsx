@@ -1,6 +1,6 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-import { Button, ButtonProps, ConnectorNames, useWalletModal } from 'leek-uikit'
+import { Button, ButtonProps, ConnectorNames, useWalletModal } from 'hertz-uikit'
 import { injected, walletconnect } from 'connectors'
 import useI18n from 'hooks/useI18n'
 

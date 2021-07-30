@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'leekswap-sdk'
+import { Token, TokenAmount } from 'leekswap-test-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

@@ -1,4 +1,4 @@
-import { ChainId } from 'leekswap-sdk'
+import { ChainId } from 'leekswap-test-sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

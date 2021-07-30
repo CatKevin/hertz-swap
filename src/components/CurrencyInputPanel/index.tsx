@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from 'leekswap-sdk'
-import { Button, ChevronDownIcon, Text } from 'leek-uikit'
+import { Currency, Pair } from 'leekswap-test-sdk'
+import { Button, ChevronDownIcon, Text } from 'hertz-uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'
 import { useCurrencyBalance } from '../../state/wallet/hooks'

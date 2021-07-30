@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card } from 'leek-uikit'
+import { Card } from 'hertz-uikit'
 
 export const BodyWrapper = styled(Card)`
   position: relative;

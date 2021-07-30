@@ -1,4 +1,4 @@
-import { Text } from 'leek-uikit'
+import { Text } from 'hertz-uikit'
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
